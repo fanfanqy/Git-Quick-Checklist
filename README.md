@@ -2,7 +2,7 @@
 
 | **分支**                                     |                                              |
 | -------------------------------------------- | -------------------------------------------- |
-| `git branch`                                 | 别处全部本地分支                             |
+| `git branch`                                 | 列出全部本地分支                             |
 | `git branch -a`                              | 列出全部本地与远程分支                       |
 | `git checkout -b <branch_name>`              | 创建本地新分支并切换为当前分支               |
 | `git checkout <branch_name>`                 | 切换本地已有分支为当前分支                   |
@@ -19,7 +19,7 @@
 | `git blame <myfile>`                         | 显示某个文件被「谁」在什么时候修改过         |
 | `git remote show origin`                     | 显示远程分支与本地分支的跟踪关系             |
 | **清理**                                     |                                              |
-| `git clean -f`                               | Delete all untracked files.                  |
+| `git clean -f`                               | 删除全部未跟踪的文件                  |
 | `git clean -df`                              | 删除全部未跟踪的文件和文件夹                 |
 | `git checkout -- .`                          | 重置本地全部更改                             |
 | `git reset HEAD <myfile>`                    | 移除缓冲区中的某个文件                       |

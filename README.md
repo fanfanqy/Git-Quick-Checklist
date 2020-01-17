@@ -43,3 +43,9 @@
 | `git config --global user.name <username>` | 设置用户名       |
 | `git config --global user.email <email>`   | 设置用户邮箱     |
 
+| 同步上游                    |                                  |
+| --------------------------- | -------------------------------- |
+| `git fetch upstream`        | 获取上游分支及提交               |
+| `git checkout master`       | 切换本地 `master` 分支           |
+| `git merge upstream/master` | 合并上游更改到本地 `master` 分支 |
+
